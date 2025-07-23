@@ -1,0 +1,78 @@
+/* mp.css */
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    margin: 8px 0;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.song-item:hover {
+    background-color: #f1f1f1;
+}
+
+.song-item.active {
+    background-color: #d0e8ff;
+    font-weight: bold;
+}
+
+.song-title {
+    flex-grow: 1;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #b62a36;
+}
